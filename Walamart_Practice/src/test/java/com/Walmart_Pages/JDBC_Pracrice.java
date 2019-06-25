@@ -1,4 +1,4 @@
-package com.Walmart_Pages;
+package src.test.java.com.Walmart_Pages;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,6 +15,9 @@ public class JDBC_Pracrice {
 	public static WebDriver driver;
 
 	DataBaseManeger conn = new DataBaseManeger();
+	
+	
+	// github test 
 
 	@Test
 	public void JDBC_Practic1() throws SQLException, Exception {

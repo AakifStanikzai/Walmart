@@ -25,7 +25,7 @@ public class DataBaseManeger {
 				// connect with SQL Server and buld the connection
 				conn = DriverManager.getConnection(SQL_URL, username, password);
 
-				// build statement
+				// build statement dfskdajfksdjfklajsdl
 				stamt = conn.createStatement();
 
 				// build our quiry
