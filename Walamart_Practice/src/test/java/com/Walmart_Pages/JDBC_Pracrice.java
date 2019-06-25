@@ -16,8 +16,6 @@ public class JDBC_Pracrice {
 
 	DataBaseManeger conn = new DataBaseManeger();
 	
-	
-	// github test 
 
 	@Test
 	public void JDBC_Practic1() throws SQLException, Exception {
@@ -33,6 +31,7 @@ public class JDBC_Pracrice {
 			LN = quires.getString("Last_name");
 
 		}
+	// Update
 		
 		System.out.println("firstName"+ FN + "Last_name"+LN);
 
